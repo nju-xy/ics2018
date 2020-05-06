@@ -1,17 +1,6 @@
-# ICS2018 Programming Assignment
+理解"程序如何在计算机上运行"的根本途径是从"零"开始实现一个完整的计算机系统. 南京大学计算机科学与技术系计算机系统基础课程的小型项目 (Programming Assignment, PA)将提出x86/mips32/riscv32架构相应的教学版子集, 指导学生实现一个经过简化但功能完备的x86/mips32/riscv32模拟器NEMU(NJU EMUlator), 最终在NEMU上运行游戏"仙剑奇侠传", 来让学生探究"程序在计算机上运行"的基本原理. NEMU受到了QEMU的启发, 并去除了大量与课程内容差异较大的部分. PA包括一个准备实验(配置实验环境)以及:
 
-This project is the programming assignment of the class ICS(Introduction to Computer System) in Department of Computer Science and Technology, Nanjing University.
-
-For the guide of this programming assignment,
-refer to http://nju-ics.gitbooks.io/ics2018-programming-assignment/content/
-
-To initialize, run
-```bash
-bash init.sh
-```
-
-The following subprojects/components are included. Some of them are not fully implemented.
-* [NEMU](https://github.com/NJU-ProjectN/nemu)
-* [Nexus-am](https://github.com/NJU-ProjectN/nexus-am)
-* [Nanos-lite](https://github.com/NJU-ProjectN/nanos-lite)
-* [Navy-apps](https://github.com/NJU-ProjectN/navy-apps)
++ 图灵机与简易调试器
++ 冯诺依曼计算机系统
++ 批处理系统
++ 分时多任务
